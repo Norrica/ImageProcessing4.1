@@ -1,7 +1,7 @@
 from skimage.io import imread, imshow, imsave
 import numpy as np
 
-img = imread('tiger-border.png')
+img = imread('img.png')
 
 a = img[0,0]
 b = [0, 0, 0, 0]
